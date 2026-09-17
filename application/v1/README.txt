@@ -1,0 +1,1 @@
+Copy lib files into your project. Keep your existing firebase_options.dart. Add assets/house.jpg and declare it in pubspec.yaml.

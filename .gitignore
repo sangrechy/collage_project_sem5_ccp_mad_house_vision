@@ -1,0 +1,75 @@
+# =====================================================================
+# House Vision Root .gitignore
+# Excludes all build artifacts, dependency caches, and local configurations
+# across v1, v2, and root project structure.
+# =====================================================================
+
+# --- Built Binaries & Large Packages ---
+# APK files are ~350MB and placed locally in /apks.
+# GitHub restricts file uploads > 100MB; publish APKs via GitHub Releases.
+apks/
+*.apk
+*.aab
+
+# --- Flutter / Dart Auto-Generated & Dependency Folders ---
+# Re-created automatically via `flutter pub get` or `dart pub get`
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/.pub-cache/
+**/.pub/
+**/build/
+**/coverage/
+
+# --- Android Build & Cache Folders ---
+# Re-created automatically by Gradle during compilation
+**/android/.gradle/
+**/android/captures/
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+**/*.keystore
+**/*.jks
+
+# --- iOS & macOS Build Folders ---
+# Re-created automatically via `pod install`
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/profile/
+**/ios/release/
+**/ios/**/GeneratedPluginRegistrant.h
+**/ios/**/GeneratedPluginRegistrant.m
+**/macos/Flutter/ephemeral/
+**/macos/Pods/
+
+# --- Desktop Ephemeral Folders ---
+# Re-created dynamically during desktop compilation
+**/windows/flutter/ephemeral/
+**/linux/flutter/ephemeral/
+
+# --- IDEs & System Files ---
+# Local workspace and operating system files
+.idea/
+**/.idea/
+*.iml
+**/*.iml
+.vscode/
+**/.vscode/
+*.ipr
+*.iws
+.DS_Store
+Thumbs.db
+*.log
+*.class
+*.pyc
+*.swp
+.history

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "191928184869",
+    "project_id": "house-vision-6e168",
+    "storage_bucket": "house-vision-6e168.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191928184869:android:e9ac524ade9bd6993f0fcc",
+        "android_client_info": {
+          "package_name": "com.example.house_vision"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs1mmHwt3TBZilPP1LHwkSRP8Kz1XBLPs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
