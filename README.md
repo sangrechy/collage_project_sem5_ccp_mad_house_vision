@@ -16,7 +16,7 @@ project_housevision/
 │   └── house_vision_v2.apk             # Next-gen v2 Prototype APK (compiled & installable)
 │
 ├── application/
-│   ├── v1/                             # Baseline Flutter Concept Architecture
+│   ├── .trashed_v1/                    # Baseline Flutter Concept Architecture (Legacy/Trashed)
 │   │   ├── lib/                        # Early prototype screens, AR viewer & models
 │   │   ├── android/                    # Cleaned Android Gradle build configuration
 │   │   └── pubspec.yaml                # v1 package dependencies
@@ -131,9 +131,9 @@ flutter pub get
 flutter run
 ```
 
-#### Running v1 (Baseline):
+#### Running v1 (Baseline / Trashed):
 ```powershell
-cd E:\PROJECTS\project_housevision\application\v1
+cd E:\PROJECTS\project_housevision\application\.trashed_v1
 flutter pub get
 flutter run
 ```
@@ -151,7 +151,7 @@ flutter analyze
 flutter test
 
 # Analyze and test v1:
-cd E:\PROJECTS\project_housevision\application\v1
+cd E:\PROJECTS\project_housevision\application\.trashed_v1
 dart analyze
 flutter test
 ```
